@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+#login-page{
+    margin: 10% auto;
+    width: 40%;
+    max-width: 400px;
+    height: 350px;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    display: block;
+}
+
+.chat-icon{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(96, 173, 96);
+    text-align: center;
+    color: aliceblue;
+    padding: 6px;
+}
+
+.chat-icon i {
+    margin-right: 10px;
+}
+
+.username-div {
+    color: aliceblue;
+    margin-top: 7%;
+    margin-left:16%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.key-div {
+    color: aliceblue;
+    margin-left:16%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#username{
+    margin:1% 16% 5% 0;
+    padding:10px 40% 10px 3px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#key{
+    margin:1% 16% 6% 0;
+    padding:10px 40% 10px 3px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#btn-submit {
+    margin:0 16%;
+    padding:8px 20%;
+    text-align: center;
+    background-color: darkorchid;
+    color: aliceblue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#chat-div {
+    margin: 0;
+    display: none;
+}
+
+#chat-header {
+    margin: 0;
+    height: 78px;
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: honeydew;
+}
+
+#chat-div-icon i {
+    margin-right: 10px;
+}
+
+#leave-btn {
+    background-color: lightsalmon;
+    font-size: 18px;
+    color: honeydew;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+    left: 480px;
+}
+
+#chat-section {
+    display: flex;
+}
+
+#chat-user {
+    width: 18%;
+    background-color: burlywood;
+}
+
+#chat-user i {
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: whitesmoke;
+}
+
+#chat-div-user {
+    margin-left: 50px;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+
+#chat-div-user li{
+    /* margin-top: 20px; */
+    list-style-type: none;
+}
+
+/* li span {
+    margin-left: 15px;
+} */
+
+.message-type{
+    background-color: lightyellow;
+    width: 82%;
+    height: 87vh;
+}
+
+#typing-section{
+    height: 40px;
+    background-color: chocolate;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 82%;
+}
+
+#message {
+    width: 88%;
+    margin: 8px;
+    padding: 5px;
+    outline: none;
+}
+
+#send-btn {
+    padding: 5px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 8px;
+}
+
+#send-btn i {
+    margin-right: 8px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.active-user {
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.disconnect-user {
+    margin-left: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+h4{
+    margin-left: 10px;
+}
+
+h4 span {
+    font-weight: 400;
+}
